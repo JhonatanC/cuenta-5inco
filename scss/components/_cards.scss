@@ -1,0 +1,22 @@
+.beneficios{
+	.beneficios__boxes{
+		background: $color-blanco;
+		text-align: center;
+		padding: 3rem 1.5rem;
+		margin-top: -10rem;
+		border: 1px solid #E6E6E6;
+		transition: all .5s;
+		z-index: 1;
+
+		&:hover{
+			transform: scale(1.05);
+			box-shadow: 0px 1px 3px rgba($color-negro, .3);
+			z-index: 3;
+		}
+
+		&--title{
+			text-transform: uppercase;
+			margin: 1.5rem 0;
+		}
+	}
+}

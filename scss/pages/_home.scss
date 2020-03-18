@@ -1,0 +1,56 @@
+.header{
+	background-image: linear-gradient( to bottom, rgba($color-negro, .5), rgba($color-negro, .5)) , url('../img/hero.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 90vh;
+	width: 100%;
+	position: rela;
+
+	&__box-logo{
+		position: absolute;
+		top: 4rem;
+	}
+
+	&__box-title-button{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		text-align: center;
+
+		&--button{
+			color: $color-blanco;
+			border-radius: 100px;
+			display: inline-block;
+			padding: 1.4rem 5rem;
+			text-transform: uppercase;
+			background: $color-red;
+			transition: all .5s;
+			font-weight: 700;
+
+			&:hover{
+				text-decoration: none;
+				background: $color-red-dark;
+				color: $color-blanco;
+			}
+		}
+	}
+}
+
+.beneficios-contacto{
+	margin-top: 7rem;
+
+	&__box-image:hover{
+		&--image{
+			transform: scale(1.2);
+		}
+	}
+
+	&--title{
+		font-size: 1.9rem;
+		color: $color-red;
+		margin: 1rem 0rem;
+	}
+
+}
