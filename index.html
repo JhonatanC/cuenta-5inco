@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Cuenta 5inco</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style>
+		img{
+			max-width: 100%;
+		}
+	</style>
+</head>
+<body>
+
+	<header class="header">
+		<div class="header__box-logo">
+			<img class="header__box-logo--logo" src="img/logo-white.svg" alt="">
+		</div>
+
+		<div class="header__box-title-button">
+			<h1 class="header__box-title-button--title">Cuenta 5inco</h1>
+			<a class="header__box-title-button--button" href="#inscribete">Inscríbete</a>
+		</div>
+	</header>
+
+	<main class="main">
+		
+		<!-- Beneficios -->
+		<section class="beneficios container">
+			<div class="row">
+				<div class="beneficios__boxes col-sm-12 col-md-4">
+					<img class="beneficios__boxes--image" src="img/couta.svg" alt="">
+					<h3 class="beneficios__boxes--title">Couta de manejo</h3>
+					<p class="beneficios__boxes--paragrahp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="beneficios__boxes col-sm-12 col-md-4">
+					<img class="beneficios__boxes--image" src="img/retiros.svg" alt="">
+					<h3 class="beneficios__boxes--title">Retiros sin costo</h3>
+					<p class="beneficios__boxes--paragrahp">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="beneficio__boxes col-sm-12 col-md-4">
+					<img class="beneficios__boxes--image" src="img/transferencias.svg" alt="">
+					<h3 class="beneficios__boxes--title">Transferencia de dinero al mes</h3>
+					<p class="beneficios__boxes--paragrahp">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				</div>
+			</div>
+		</section>
+		<!-- ### -->
+
+		<!-- Beneficios - Contacto -->
+		<section class="beneficios-contacto container">
+			<div class="row">
+				<div class="col-sm-12 col-md-5">
+					<img src="img/img03.jpg" alt="">
+					<h3>Conoce más de nuestros beneficios</h3>
+
+					<h4>- Oficina virtual y banca móvil</h4>
+					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+					<h4>- Compras en establecimientos de comercio</h4>
+					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+					<h4>- Pago de servicios públicos por banca móvil</h4>
+					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="col-sm-12 col-md-6 offset-md-1">
+					<h3>¿Quieres obtener más información?</h3>
+					<p>Déjanos tus datos y en un momento nuestro equipo se pondrá en contacto contigo.</p>
+					<p>Los campos marcados con (*) son obligatorios.</p>
+
+					<form>
+					  <div class="form-group">
+					    <label for="nombrecompleto">Nombres y Apellidos:<span class="asterisco">*</span> </label>
+					    <input type="text" class="form-control" id="nombrecompleto" aria-describedby="emailHelp">
+					  </div>
+					  <div class="form-group">
+					    <label for="telefono">Número Telefónico:<span class="asterisco">*</span> </label>
+					    <input type="tel" class="form-control" id="telefono">
+					  </div>
+					  <div class="form-group">
+					    <label for="email">Correo Electrónico:<span class="asterisco">*</span> </label>
+					    <input type="email" class="form-control" id="email">
+					  </div>
+					  <div class="form-group">
+					    <label for="ciudad">Ciudad:<span class="asterisco">*</span> </label>
+					    <input type="text" class="form-control" id="ciudad">
+					  </div>
+					  <div class="form-group form-check">
+					    <label class="form-check-label" for="exampleCheck1">Cliente Bancoomeva:<span class="asterisco">*</span> </label>
+					    <div class="form-check form-check-inline">
+					      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+					      <label class="form-check-label" for="inlineCheckbox1">Si</label>
+					    </div>
+					    <div class="form-check form-check-inline">
+					      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+					      <label class="form-check-label" for="inlineCheckbox2">No</label>
+					    </div>
+					  </div>
+					  <button type="submit" class="btn btn-danger">Enviar Datos</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- ### -->
+
+		<!-- Preguntas -->
+		<section class="preguntas">
+			<div class="preguntas__content-text">
+				<h3>Preguntas frecuentes</h3>
+				<ul>
+					<li>¿Qué es la Cuenta 5inco?</li>
+					<li>Mi cuenta bancaria principal (o de nómina) la tengo en otra entidad. ¿Qué debo de hacer?</li>
+					<li>¿La cuenta se puede marcar exenta del GMF? ¿Me van a cobrar 4x1000?</li>
+					<li>¿La Tarjeta Débito tiene cobro de cuota de manejo?</li>
+					<li>¿Qué pasa si la cuenta no recibe mensualmente los depósitos requeridos ($1.600.000)?</li>
+					<li>¿Mi empresa debe tener convenio con el Banco?</li>
+				</ul>
+			</div>
+			<img src="img/img02.jpg" alt="">
+		</section>
+		<!-- ### -->
+
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-2">
+					<img src="img/logo-red.svg" alt="">
+					<span>www.nexura.com</span>
+				</div>
+				<div class="col-sm-12 col-md-10">
+					<ul>
+						<li>Red de oficinas</li>
+						<li>Política de datos personales</li>
+						<li>Reglamentos</li>
+						<li>Contáctanos</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+</body>
+</html>
