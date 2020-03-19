@@ -7,6 +7,10 @@
 		border: 1px solid #E6E6E6;
 		transition: all .5s;
 		z-index: 1;
+		@media screen and (max-width: #{$vw-768}) {
+			z-index: 0;
+			margin-top: 2.5rem;
+		}
 
 		&:hover{
 			transform: scale(1.05);

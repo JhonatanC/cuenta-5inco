@@ -1,0 +1,56 @@
+.footer{
+	background: $color-gris-oscuro;
+	color: $color-blanco;
+	padding: 4rem 0rem;
+	&__row{
+		@media screen and (max-width: #{$vw-992}) {
+			flex-wrap: wrap;
+		}
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		&--logo-web{
+			@media screen and (max-width: #{$vw-992}) {
+				display: block;
+				width: 100%;
+			}
+			img,span{
+				display: block;
+			}
+			img{
+				@media screen and (max-width: #{$vw-992}) {
+					margin: 0 auto;
+				}
+			}
+			span{
+				@media screen and (max-width: #{$vw-992}) {
+					text-align: center;
+					margin-bottom: 2rem;
+				}
+			}
+		}
+		&--enlaces{
+			@media screen and (max-width: #{$vw-992}) {
+				display: block;
+				width: 100%;
+			}
+			ul{
+				@media screen and (max-width: #{$vw-768}) {
+					flex-wrap: wrap;
+				}
+				list-style: none;
+				display: flex;
+				li{
+					@media screen and (max-width: #{$vw-768}) {
+						text-align: center;
+						width: 100%;
+					}
+					margin: 0 2rem;
+					a{
+						color: $color-blanco;
+					}
+				}
+			}
+		}
+	}
+}

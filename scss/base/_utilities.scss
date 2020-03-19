@@ -1,0 +1,18 @@
+.u-box-left{ text-align: center; }
+
+.asterisco{ color: $color-red; }
+
+
+
+.u-box-left{
+	@media screen and (max-width: #{$vw-768}) {
+		order: 2;
+	}
+}
+
+.u-box-rigth{
+	@media screen and (max-width: #{$vw-768}) {
+		order: 1;
+		margin-bottom: 2rem;
+	}
+}
