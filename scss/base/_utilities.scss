@@ -16,3 +16,20 @@
 		margin-bottom: 2rem;
 	}
 }
+
+
+.preguntas{
+	&__content-text{
+		ul{
+			@media screen and (min-width: #{$vw-1440}) {
+				font-size: calc(.7rem + 1vw);
+			}
+			h3{
+				@media screen and (min-width: #{$vw-1440}) {
+					font-size: calc(.7rem + 1vw) !important;
+				}
+			}
+		}
+	}
+}
+

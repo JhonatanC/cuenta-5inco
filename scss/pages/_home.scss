@@ -1,5 +1,6 @@
 .beneficios-contacto{
 	margin-top: 7rem;
+	padding-bottom: 3rem;
 
 	&__box-image:hover{
 		&--image{
@@ -27,6 +28,65 @@
 			&-inline{
 				margin-top: 1rem;
 			}
+		}
+	}
+
+}
+
+.preguntas{
+
+	&__row{
+		position: relative;
+	}
+	
+	&__content-text{
+		@media screen and (max-width: #{$vw-992}) {
+			font-size: 1.4rem;
+		}
+		@media screen and (max-width: #{$vw-768}) {
+			font-size: $size-default;
+			position: relative !important;
+			text-align: center;
+			background: transparent;
+			text-shadow: 0px 0px 0px transparent;
+			color: black;
+			clip-path: unset;
+			border-top: 1rem solid $color-red-dark;
+		}
+		position: absolute !important;
+		z-index: 2;
+		background: #bd2130;
+		height: 100%;
+		font-size: 1.7rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		text-shadow: 1px 1px 2px $color-gris-oscuro;
+
+		clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+		ul{
+			@media screen and (max-width: #{$vw-768}) {
+				width: 100%;
+				margin-left: 0%;
+				list-style: initial;
+				padding-left: 2rem;
+				margin: 3rem 0rem;
+			}
+			list-style: circle;
+			margin-left: -10%;
+			width: 70%;
+			h3{
+				font-size: 2rem;
+				text-transform: uppercase;
+			}
+		}
+	}
+
+	&__image{
+		transform: translateX(107%);
+		@media screen and (max-width: #{$vw-768}) {
+			transform: translateX(0%);
 		}
 	}
 
